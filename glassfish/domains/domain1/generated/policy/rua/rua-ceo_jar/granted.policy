@@ -1,0 +1,72 @@
+/* AUTOMATICALLY GENERATED ON Thu Apr 14 15:13:29 COT 2022*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "FirmarDocumentoServiceImp", "validaCertificado,Local,dj.comprobantes.offline.dto.Firma";
+  permission javax.security.jacc.EJBMethodPermission "ConsultasServiceImp", "getFacturasAutorizadas,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "getComprobanteGuia,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "XmlComprobanteDAOImp", "getSriComprobanteActual,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "EmisorServiceImp", "getEmisor,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MailServiceImp", "enviar,Local,dj.comprobantes.offline.dto.Comprobante,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "EmisorDAOImp", "getEmisor,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ConsultasServiceImp", "getNotCreditoAutorizadas,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "getComprobantePorClaveAcceso,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "XmlComprobanteDAOImp", "guardar,Local,dj.comprobantes.offline.dto.XmlComprobante";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobantesCliente,Local,java.lang.String,dj.comprobantes.offline.enums.TipoComprobanteEnum";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "getComprobantePorId,Local,java.lang.Long";
+  permission javax.security.jacc.EJBMethodPermission "AutorizacionServiceImp", "enviarRecibidosOfflineSRI,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ConsultasServiceImp", "getNotDebitoAutorizadas,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "FirmaDAOImp", "getFirmaDisponible,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "FirmaDAOImp", "getTodasFirmas,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "enviarComprobante,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "FacturaServiceImp", "getXmlFactura,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "FirmarDocumentoServiceImp", "getDocumentoFirmado,Local,org.w3c.dom.Document,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "getClaveAcceso,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "GuiaRemisionServiceImp", "getXmlGuiaRemision,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "CPanelServiceImp", "guardarComprobanteNube,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "MailServiceImp", "agregarCorreo,Local,dj.comprobantes.offline.dto.Comprobante,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ConsultasServiceImp", "getRetencionesAutorizadas,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CPanelServiceImp", "reenviarComprobante,Local,java.lang.String,java.lang.Long";
+  permission javax.security.jacc.EJBMethodPermission "LiquidacionCompraServiceImp", "getXmlLiquidacionCompra,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "RetencionServiceImp", "getXmlRetencion,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "enviarAutorizacionSRI,Local,";
+  permission javax.security.jacc.EJBMethodPermission "NotaCreditoServiceImp", "getXmlNotaCredito,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ArchivoServiceImp", "getPdf,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobantesAutorizadosNoNube,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "actualizarRecepcionComprobante,Local,java.lang.String,dj.comprobantes.offline.dto.Comprobante,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "actualizar,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobantesPorEstado,Local,dj.comprobantes.offline.enums.EstadoComprobanteEnum";
+  permission javax.security.jacc.EJBMethodPermission "RecepcionServiceImp", "enviarRecepcionOfflineSRI,Local,dj.comprobantes.offline.dto.Comprobante,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CPanelServiceImp", "subirComprobantesPendientes,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AutorizacionServiceImp", "enviarClaveDeAcceso,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobantePorClaveAcceso,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MailServiceImp", "enviarTodos,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ConsultasServiceImp", "getGuiasAutorizadas,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ArchivoServiceImp", "getXml,Local,dj.comprobantes.offline.dto.Comprobante";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobanteGuia,Local,java.lang.Long";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteDAOImp", "getComprobantePorId,Local,java.lang.Long";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "actualizarAutorizacionComprobante,Local,java.lang.String,dj.comprobantes.offline.dto.Comprobante,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ComprobanteServiceImp", "enviarRecepcionSRI,Local,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "RecepcionServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "MailServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "FirmarDocumentoServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "XmlComprobanteDAOImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "AutorizacionServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "FacturaServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "GuiaRemisionServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EmisorServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "LiquidacionCompraServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ArchivoServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CPanelServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ConsultasServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EmisorDAOImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "RetencionServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "NotaCreditoServiceImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ComprobanteDAOImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "FirmaDAOImp", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ComprobanteServiceImp", "**";
+};
+
